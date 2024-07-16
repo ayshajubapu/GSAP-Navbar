@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: apple-system ;
+}
+html,
+
+body {
+height: 100%;
+width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+#main {
+height: 100%;
+width: 100%;
+background-color: rgb(95, 169, 243);
+background-image: url("https://images.pexels.com/photos/324028/pexels-photo-324028.jpeg?auto=compress&cs=tinysrgb&w=800");
+
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px;
+    color: white;
+}
+#nav i{
+    font-size: 30px;
+    font-weight: 800;
+    color:white;
+    cursor: pointer;
+
+}
+#nav h2 {
+    font-size: 50px;
+}
+#full{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.582);
+    top: 0;
+    right: -40%;
+    backdrop-filter: blur(20px);
+    padding: 100px 60px;
+
+}
+#full h4{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+#full i{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5%;
+    font-weight: 800;
+    font-size: 20px;
+    cursor: pointer;
+}
